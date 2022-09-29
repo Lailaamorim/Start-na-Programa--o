@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2? family= Dancing+Script & family= Edu+VIC+WA+NT+Beginner & family= Inter:wght@400;900 & display= troca');
 
-
 :root {
 --primary-color:lightcoral;
 --secondary-color: Dimgrey;
 --tertiary-color:gainsboro;
 }
-body{
 
+body{
     background-color:var(--primary-color);
     font-size: 15px;
-    font-family:Lato, sans-serif ;
+    font-family: Lato, sans-serif;
 }
 #container {
 height: 525px;
@@ -20,7 +19,7 @@ background: white;
 box-shadow: 5px 5px 5px var(--tertiary-color);
 border-radius: 20px;
 }
-.title{
+.title {
     background: var(--tertiary-color);
     color:var(--secondary-color) ;
     padding: 20px;
@@ -37,20 +36,20 @@ padding-right: 20px;
 }
 .formInput{
     background: white;
-    width: 40px;
+    width: 50px;
     padding: 5px 5px 8px 8px;
 }
-.formInput:focus {
+.formInput:focus{
     border: 3px solid var(--primary-color);
     outline: none;
 }
 
-.formselect{
+.formSelect{
     width: 180px;
     padding: 5px;
     font-size: 12px;
 }
-.FormSubmit{
+.formSubmit{
     text-transform: uppercase;
     font-weight: bold;
     display: block;
@@ -63,7 +62,7 @@ padding-right: 20px;
     color: white;
 
 }
-.totalTip{
+#totalTip{
 font-size: 20px;
 margin-top: 5px;
 text-align: center;
